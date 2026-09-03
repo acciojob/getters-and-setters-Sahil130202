@@ -13,7 +13,7 @@ class Person {
 		this._name = name
 	}
 	get age(): number {
-		return this.age
+		return this._age
 	}
 	set age(age:number){
 		this._age = age
